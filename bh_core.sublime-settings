@@ -1,0 +1,77 @@
+{
+    // Define region highlight styles
+    "bracket_styles": {
+        // "default" and "unmatched" styles are special
+        // styles. If they are not defined here,
+        // they will be generated internally with
+        // internal defaults.
+
+        // "default" style defines attributes that
+        // will be used for any style that does not
+        // explicitly define that attribute.  So if
+        // a style does not define a color, it will
+        // use the color from the "default" style.
+        "default": {
+            "icon": "dot",
+            "color": "entity.name.class",
+            // "color": "brackethighlighter.default",
+            "style": "underline"
+        },
+
+        // This particular style is used to highlight
+        // unmatched bracekt pairs.  It is a special
+        // style.
+        "unmatched": {
+            "icon": "question",
+            // "color": "brackethighlighter.unmatched",
+            "style": "outline"
+        },
+        // User defined region styles
+        // 大括號
+        "curly": {
+            "icon": "curly_bracket",
+            "color": "bracket.curly",
+            "style": "outline"
+        },
+        // 圓括號
+        "round": {
+            "icon": "round_bracket",
+            "color": "bracket.round",
+            "style": "outline"
+        },
+        // 中括號
+        "square": {
+            "icon": "square_bracket",
+            "color": "bracket.square",
+            "style": "underline"
+        },
+        // 角括號
+        "angle": {
+            "icon": "angle_bracket",
+            "color": "bracket.angle",
+            "style": "underline"
+        },
+        "tag": {
+            "icon": "tag",
+            "color": "bracket.tag",
+            "style": "outline"
+        },
+        // 單引號
+        "single_quote": {
+            "icon": "single_quote",
+            "color": "bracket.quote",
+            "style": "underline"
+        },
+        // 雙引號
+        "double_quote": {
+            "icon": "double_quote",
+            "color": "bracket.quote",
+            "style": "underline"
+        },
+        "regex": {
+            "icon": "regex",
+            "color": "bracket.quote",
+            "style": "underline"
+        }
+    }
+}

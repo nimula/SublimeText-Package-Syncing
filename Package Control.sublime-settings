@@ -1,0 +1,33 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Alignment",
+		"All Autocomplete",
+		"Auto Semi-Colon",
+		"BracketHighlighter",
+		"BufferScroll",
+		"CTags",
+		"DocBlockr",
+		"EasyMotion",
+		"EditorConfig",
+		"FileDiffs",
+		"FileOpTabContextMenu",
+		"Git",
+		"HexViewer",
+		"LineEndings",
+		"Monokai Extended",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeAStyleFormatter",
+		"SublimeLinter",
+		"SublimeLinter-cppcheck",
+		"SublimeLinter-cpplint",
+		"Sublimerge Pro",
+		"Theme - Soda",
+		"TrailingSpaces"
+	]
+}

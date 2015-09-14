@@ -1,0 +1,76 @@
+[
+	{ "keys": ["f3"], "command": "find_under" },
+	{ "keys": ["ctrl+shift+t"], "command": "delete_trailing_spaces" },
+	// { "keys": ["ctrl+alt+g"], "command": "glue_views_add"},
+	// { "keys": ["ctrl+alt+r"], "command": "glue_views_remove"},
+	// { "keys": ["ctrl+alt+c"], "command": "glue_views_clear"},
+	// { "keys": ["ctrl+="], "command": "increase_font_size" },
+	// { "keys": ["ctrl+keypad_plus"], "command": "decrease_font_size" },
+	// { "keys": ["ctrl+keypad_minus"], "command": "decrease_font_size" },
+	{
+		"keys": ["ctrl+,", "<character>"],
+		"command": "easy_motion",
+		"args": {"select_text": false}
+	},
+	{
+		"keys": ["ctrl+shift+,", "<character>"],
+		"command": "easy_motion",
+		"args": {"select_text": true}
+	},
+	{ "keys": ["f12"], "command": "goto_definition" },
+	{ "keys": ["ctrl+alt+shift+f"], "command": "side_bar_find_files_path_containing" },
+	{ "keys": ["ctrl+t"], "command": "side_bar_new_file2" },
+	{ "keys": ["ctrl+alt+f2"], "command": "side_bar_rename" },
+	{
+		"keys": ["ctrl+f12"],
+		"command": "side_bar_open_in_browser" ,
+		"args":{"paths":[], "type":"testing"}
+	},
+	{
+		"command": "navigate_to_definition",
+		"keys": ["alt+period"]
+	},
+	{
+		"command": "jump_prev",
+		"keys": ["alt+comma"]
+	},
+
+	//hex viewer
+// 	{
+// 		"keys": ["ctrl+shift+b","ctrl+shift+h"],
+//     	"command": "hex_viewer"
+//     },
+//     {
+//         "keys": ["ctrl+shift+b","ctrl+shift+i"],
+//         "command": "hex_show_inspector"
+//     },
+//     {
+//         "keys": ["ctrl+shift+b","ctrl+shift+f"],
+//         "command": "hex_finder"
+//     },
+//     {
+//         "keys": ["ctrl+shift+b","ctrl+shift+e"],
+//         "command": "hex_editor"
+//     },
+//     {
+//         "keys": ["ctrl+shift+b","ctrl+shift+x"],
+//         "command": "hex_writer"
+//     },
+//     {
+//         "keys": ["ctrl+shift+b","ctrl+shift+u"],
+//         "command": "hex_discard_edits"
+//     },
+//     {
+//         "keys": ["ctrl+shift+b","ctrl+shift+="],
+//         "command": "hex_checksum",
+//         "args": {"panel": true}
+//     },
+// {
+//         "keys": ["ctrl+shift+b","ctrl+shift+-"],
+//         "command": "hash_selection"
+//     },
+//     {
+//         "keys": ["ctrl+shift+b","ctrl+shift+g"],
+//         "command": "hash_eval"
+//     }
+]
