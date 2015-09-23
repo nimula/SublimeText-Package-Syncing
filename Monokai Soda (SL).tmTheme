@@ -344,7 +344,7 @@
                 <string>#E6DB74</string>
             </dict>
         </dict>
-        
+
         <dict>
             <key>name</key>
             <string>Variables</string>
@@ -371,7 +371,7 @@
                 <string>#4C8FC7</string>
             </dict>
         </dict>
-        
+
         <dict>
             <key>name</key>
             <string>Bracket Tag</string>
@@ -385,7 +385,7 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Bracket Curly</string>    
+            <string>Bracket Curly</string>
             <key>scope</key>
             <string>bracket.curly</string>
             <key>settings</key>
@@ -396,7 +396,7 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Bracket Round</string>    
+            <string>Bracket Round</string>
             <key>scope</key>
             <string>bracket.round</string>
             <key>settings</key>
@@ -407,7 +407,7 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Bracket Square</string>    
+            <string>Bracket Square</string>
             <key>scope</key>
             <string>bracket.square</string>
             <key>settings</key>
@@ -418,7 +418,7 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Bracket Angle</string>    
+            <string>Bracket Angle</string>
             <key>scope</key>
             <string>bracket.angle</string>
             <key>settings</key>
@@ -429,7 +429,7 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Bracket Quote</string>    
+            <string>Bracket Quote</string>
             <key>scope</key>
             <string>bracket.quote</string>
             <key>settings</key>
