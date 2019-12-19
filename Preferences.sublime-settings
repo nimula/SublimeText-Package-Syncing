@@ -4,7 +4,7 @@
 	"detect_slow_plugins": false,
 	"draw_minimap_border": true,
 	"ensure_newline_at_eof_on_save": true,
-	"font_face": "Monaco",
+	"font_face": "monaco",
 	"font_options":
 	[
 		"directwrite"
@@ -30,6 +30,11 @@
 		"*.log",
 		"*.gitignore",
 		"*.gitmodules"
+	],
+	"rulers":
+	[
+		80,
+		100
 	],
 	"scroll_past_end": true,
 	"show_encoding": false,
